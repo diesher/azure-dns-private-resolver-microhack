@@ -101,7 +101,7 @@ It means that:
 **Nevertheless, *"\*.contoso.internal"* DNS resolution is not possible from hub & spokes networks** currently.
 
 2. Privatelink DNS resolution is working from Azure hub & spokes networks:
-- *spoke01-t1q0mq-pgsql.postgres.database.azure.com* DNS resolution from hub-vm
+- *spoke01-t1q0mq-pgsql.postgres.database.azure.com* DNS resolution from hub-vm (NB: sql server name is unique, please replace it one deployed in your environment).
   
 ![image](images/nslookup-pgsql-hub.png)
 
